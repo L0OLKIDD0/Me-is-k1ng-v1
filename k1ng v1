@@ -1,14 +1,14 @@
--- ME IS K1NG GUI V1 - by L0OLKIDD0
+-- K1NG GUI V1 - by L0OLKIDD0
 local plr = game.Players.LocalPlayer
 local gui = Instance.new("ScreenGui")
-gui.Name = "MEISK1NG_GUI"
+gui.Name = "K1NG_GUI"
 gui.ResetOnSpawn = false
 gui.Parent = plr:WaitForChild("PlayerGui")
 
 -- notification
 game:GetService("StarterGui"):SetCore("SendNotification", { 
 	Title = "Made by L0OLKIDD0";
-	Text = "just enjoy it!";
+	Text = "SUB AND ENJOY!";
 	Icon = "rbxthumb://type=Asset&id=91918175264782&w=150&h=150"})
 Duration = 15;
 
@@ -17,7 +17,7 @@ local main = Instance.new("Frame")
 local originalSize = UDim2.new(0, 460, 0, 350)
 main.Size = originalSize
 main.Position = UDim2.new(0.5, -230, 0.5, -175)
-main.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+main.BackgroundColor3 = Color3.fromRGB(50, 0, 0)
 main.BorderSizePixel = 0
 main.Active = true
 main.Draggable = true
@@ -26,9 +26,9 @@ main.Parent = gui
 -- Title
 local title = Instance.new("TextLabel")
 title.Size = UDim2.new(1, 0, 0, 30)
-title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
-title.Text = "ME IS K1NG GUI V1"
-title.TextColor3 = Color3.fromRGB(255, 0, 0)
+title.BackgroundColor3 = Color3.fromRGB(120, 0, 0)
+title.Text = "K1NG GUI V1"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
 title.Font = Enum.Font.SourceSansBold
 title.TextSize = 20
 title.TextStrokeTransparency = 0.8
@@ -39,7 +39,7 @@ local status = Instance.new("TextLabel")
 status.Size = UDim2.new(1, -10, 0, 20)
 status.Position = UDim2.new(0, 5, 0, 32)
 status.BackgroundTransparency = 1
-status.TextColor3 = Color3.fromRGB(0, 0, 0)
+status.TextColor3 = Color3.fromRGB(255, 255, 255)
 status.Font = Enum.Font.SourceSans
 status.TextSize = 14
 status.Text = ""
@@ -50,9 +50,9 @@ status.Parent = main
 local minimizeBtn = Instance.new("TextButton")
 minimizeBtn.Size = UDim2.new(0, 25, 0, 25)
 minimizeBtn.Position = UDim2.new(1, -30, 0, 2)
-minimizeBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+minimizeBtn.BackgroundColor3 = Color3.fromRGB(180, 0, 0)
 minimizeBtn.Text = "-"
-minimizeBtn.TextColor3 = Color3.fromRGB(255, 0, 0)
+minimizeBtn.TextColor3 = Color3.fromRGB(255, 255, 255)
 minimizeBtn.Font = Enum.Font.SourceSansBold
 minimizeBtn.TextSize = 18
 minimizeBtn.BorderSizePixel = 0
@@ -95,8 +95,8 @@ end
 local function createButton(name, script)
     local btn = Instance.new("TextButton")
     btn.Size = UDim2.new(1, -10, 0, 35)
-    btn.BackgroundColor3 = Color3.fromRGB(255,0,0)
-    btn.TextColor3 = Color3.fromRGB(255,0,0)
+    btn.BackgroundColor3 = Color3.fromRGB(80,0,0)
+    btn.TextColor3 = Color3.fromRGB(255,255,255)
     btn.Font = Enum.Font.SourceSansBold
     btn.TextSize = 15
     btn.Text = name
@@ -146,7 +146,7 @@ local originalButtons = {
     {Name='bluudud', Script='loadstring(game:HttpGet("https://pastebin.com/raw/CcHxT0Gj"))()'},
     {Name='Pandora fe', Script='loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Pandora-Fe-55559"))()'},
     {Name='Forsaken C00lkidd', Script='loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-C00lKidd-Forsaken-UNIVERSAL-FOR-R6-44107"))()'},
-    {Name='hacker x', script='loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Hacker%20X"))()'},
+    {Name='hacker x', Script'loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Hacker%20X"))()'},
 }
 
 -- Create original buttons
@@ -177,7 +177,7 @@ createButton("RobHub", 'loadstring(game:HttpGet("https://pastebin.com/raw/KSvbtc
 createButton("Fe Big Hand", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/hand"))()')
 createButton("raining tacos 1", 'loadstring(game:HttpGet("https://pastebin.com/raw/D0yLFy5Y"))()')
 createButton("raining tacos 2", 'loadstring(game:HttpGet("https://pastebin.com/raw/Yx05z4L5"))()')
-createButton("fe gyatt r6", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/Gyatt-fe-script-r15/refs/heads/main/Gyatt%20fe%20r15"))()')
+createButton("gyatt fe r15", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/Gyatt-fe-script-r15/refs/heads/main/Gyatt%20fe%20r15"))()')
 createButton("no more games tool not fe", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/No-more-games-tool/refs/heads/main/No%20more%20games%20tool"))()')
 createButton("epic dancezz fe", 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Epik-R6-Dancezz-42246"))()')
 
@@ -185,8 +185,8 @@ createButton("epic dancezz fe", 'loadstring(game:HttpGet("https://rawscripts.net
 local bottomClose = Instance.new("TextButton")
 bottomClose.Size = UDim2.new(1,0,0,30)
 bottomClose.Position = UDim2.new(0,0,1,-30)
-bottomClose.BackgroundColor3 = Color3.fromRGB(0,0,0)
-bottomClose.TextColor3 = Color3.fromRGB(255,0,0)
+bottomClose.BackgroundColor3 = Color3.fromRGB(120,0,0)
+bottomClose.TextColor3 = Color3.fromRGB(255,255,255)
 bottomClose.Font = Enum.Font.SourceSansBold
 bottomClose.TextSize = 18
 bottomClose.Text = "Close"
@@ -218,8 +218,8 @@ local toggleBtn = Instance.new("TextButton")
 toggleBtn.Size = UDim2.new(0, 40, 0, 25)
 toggleBtn.AnchorPoint = Vector2.new(1,0)
 toggleBtn.Position = UDim2.new(1, -5, 0, 5)
-toggleBtn.BackgroundColor3 = Color3.fromRGB(0,0,0)
-toggleBtn.TextColor3 = Color3.fromRGB(255,0,0)
+toggleBtn.BackgroundColor3 = Color3.fromRGB(180,0,0)
+toggleBtn.TextColor3 = Color3.fromRGB(255,255,255)
 toggleBtn.Font = Enum.Font.SourceSansBold
 toggleBtn.TextSize = 18
 toggleBtn.Text = "Hide"
