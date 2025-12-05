@@ -146,7 +146,6 @@ local originalButtons = {
     {Name='bluudud', Script='loadstring(game:HttpGet("https://pastebin.com/raw/CcHxT0Gj"))()'},
     {Name='Pandora fe', Script='loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Pandora-Fe-55559"))()'},
     {Name='Forsaken C00lkidd', Script='loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-C00lKidd-Forsaken-UNIVERSAL-FOR-R6-44107"))()'},
-    {Name='hacker x', Script'loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Hacker%20X"))()'},
 }
 
 -- Create original buttons
@@ -177,9 +176,9 @@ createButton("RobHub", 'loadstring(game:HttpGet("https://pastebin.com/raw/KSvbtc
 createButton("Fe Big Hand", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/hand"))()')
 createButton("raining tacos 1", 'loadstring(game:HttpGet("https://pastebin.com/raw/D0yLFy5Y"))()')
 createButton("raining tacos 2", 'loadstring(game:HttpGet("https://pastebin.com/raw/Yx05z4L5"))()')
-createButton("gyatt fe r15", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/Gyatt-fe-script-r15/refs/heads/main/Gyatt%20fe%20r15"))()')
-createButton("no more games tool not fe", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/No-more-games-tool/refs/heads/main/No%20more%20games%20tool"))()')
-createButton("epic dancezz fe", 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Epik-R6-Dancezz-42246"))()')
+createButton("Empty Button 23", "")
+createButton("Empty Button 24", "")
+createButton("Empty Button 25", "")
 
 -- Close button
 local bottomClose = Instance.new("TextButton")
