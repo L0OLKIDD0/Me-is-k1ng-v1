@@ -142,7 +142,7 @@ local originalButtons = {
     {Name='Xester-Astra', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Xester-astra-44171'))()"},
     {Name='Xester-Monster', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Roblox-VEREUS-monster-script-3746'))()"},
     {Name='fe guest 666', Script='loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-Guest-666-Only-anims-are-fe-53309"))()'},
-    {Name='K1NG DANCE', Script='loadstring(game:HttpGet("https://pastebin.com/raw/TngVYvTp"))()'},
+    {Name='K1NG DANCE', Script='loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/K1ng-dance/refs/heads/main/K1NG%20dance"))()'},
     {Name='bluudud', Script='loadstring(game:HttpGet("https://pastebin.com/raw/CcHxT0Gj"))()'},
     {Name='Pandora fe', Script='loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Pandora-Fe-55559"))()'},
     {Name='Forsaken C00lkidd', Script='loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-C00lKidd-Forsaken-UNIVERSAL-FOR-R6-44107"))()'},
