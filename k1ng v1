@@ -119,10 +119,9 @@ local function createButton(name, script)
     end)
 end
 
--- Original 25 buttons
+-- Original 22 buttons
 local originalButtons = {
     {Name='Axur Bypasser v2', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Axur-Bypasser-V2-48316'))()"},
-    {Name='L0OLKIDD0 executor', Script="loadstring(game:HttpGet("https://pastebin.com/raw/iGCRYy1A"))()"},
     {Name='Ban Hammer', Script="loadstring(game:HttpGet('https://pastebin.com/raw/zGhJpZcg'))()"},
     {Name='Server Admin', Script="loadstring(game:HttpGet('https://raw.githubusercontent.com/gObl00x/Pendulum-Fixed-AND-Others-Scripts/refs/heads/main/Server%20Admin'))()"},
     {Name='Caducus', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Caducus-the-fallen-god-script-53019'))()"},
@@ -137,12 +136,10 @@ local originalButtons = {
     {Name='FE John Doe', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-John-Doe-Script-46855'))()"},
     {Name='Grab Knife', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753'))()"},
     {Name='suicide gun', Script="loadstring(game:HttpGet('https://pastefy.app/xxRyJ8xN/raw'))()"},
-    {Name='L0OLKIDD0 backdoor', Script="loadstring(game:HttpGet("https://pastebin.com/raw/pyxmE9KF"))()"},
     {Name='Xester-v1', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Xester-V1-46145'))()"},
     {Name='Xester-Astra', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Xester-astra-44171'))()"},
     {Name='Xester-Monster', Script="loadstring(game:HttpGet('https://rawscripts.net/raw/Universal-Script-Roblox-VEREUS-monster-script-3746'))()"},
     {Name='fe guest 666', Script='loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Fe-Guest-666-Only-anims-are-fe-53309"))()'},
-    {Name='K1NG DANCE', Script='loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/K1ng-dance/refs/heads/main/K1NG%20dance"))()'},
     {Name='bluudud', Script='loadstring(game:HttpGet("https://pastebin.com/raw/CcHxT0Gj"))()'},
     {Name='Pandora fe', Script='loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Pandora-Fe-55559"))()'},
     {Name='Forsaken C00lkidd', Script='loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-FE-C00lKidd-Forsaken-UNIVERSAL-FOR-R6-44107"))()'},
@@ -176,9 +173,12 @@ createButton("RobHub", 'loadstring(game:HttpGet("https://pastebin.com/raw/KSvbtc
 createButton("Fe Big Hand", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/hand"))()')
 createButton("raining tacos 1", 'loadstring(game:HttpGet("https://pastebin.com/raw/D0yLFy5Y"))()')
 createButton("raining tacos 2", 'loadstring(game:HttpGet("https://pastebin.com/raw/Yx05z4L5"))()')
-createButton("Empty Button 23", "")
-createButton("Empty Button 24", "")
-createButton("Empty Button 25", "")
+createButton("L0OLKIDD0 executor", 'loadstring(game:HttpGet("https://pastebin.com/raw/iGCRYy1A"))()')
+createButton("L0OLKIDD0 backdoor", 'loadstring(game:HttpGet("https://pastebin.com/raw/pyxmE9KF"))()')
+createButton("k1ng dance", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/K1ng-dance/refs/heads/main/K1NG%20dance"))()')
+createButton("hacker x", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/ian49972/SCRIPTS/refs/heads/main/Hacker%20X"))()')
+createButton("epic dancezz", 'loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-Epik-R6-Dancezz-42246"))()')
+createButton("no more games", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/No-more-games-tool/refs/heads/main/No%20more%20games%20tool"))()')
 
 -- Close button
 local bottomClose = Instance.new("TextButton")
