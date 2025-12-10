@@ -186,6 +186,7 @@ createButton("scary donald McDonald", 'loadstring(game:HttpGet("https://raw.gith
 createButton("gyatt r15 fe", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/Gyatt-fe-script-r15/refs/heads/main/Gyatt%20fe%20r15"))()')
 createButton("john doe eyes effect", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/John-doe-eyes-effect/refs/heads/main/John%20doe%20eyes%20effect"))()')
 createButton("LOL SOUND", 'loadstring(game:HttpGet("https://raw.githubusercontent.com/L0OLKIDD0/LOL-SOUND/refs/heads/main/Lol%20sound"))()')
+createButton("hd admin fe", 'loadstring(game:HttpGet("https://pastebin.com/raw/ruSm9UBf", true))()')
 
 -- Close button
 local bottomClose = Instance.new("TextButton")
